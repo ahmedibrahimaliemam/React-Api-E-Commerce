@@ -6,11 +6,14 @@ import Slider from "./Component/Slider";
 import Productlist from "./Component/Productlist";
 import About from "./Component/About";
 import ProductDetails from "./Component/productDetails";
+import Product from "./Component/Product";
 function App(){
   return(
     <BrowserRouter>
     <div className="App">
       <Navbar/>
+      <Slider/>
+      <Productlist/>
       <Routes>
         <Route path="/" element={<><Slider/><Productlist/></>}/>
         <Route path="/About" element={<><About/></>} />
