@@ -1,0 +1,15 @@
+
+h1{
+    padding: 30px;
+}
+.about-btn{
+  margin-top: 30px;
+}
+.wrap-content{
+    text-align: center;
+    background-image: url(./images/E-Commerce-Logo-Design-scaled.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
