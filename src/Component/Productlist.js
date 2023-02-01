@@ -37,7 +37,9 @@ function Productlist(){
         <>
         <h2 className="text-center">Our Products</h2>
         <div className="container base">
-            <div className="btn btn-primary all-products">All Products</div>
+            <div onClick={()=>{
+                toGetProducts() ;
+            }} className="btn btn-primary all-products">All Products</div>
             <div className="row filter">
             {
             category.map((ele)=>{

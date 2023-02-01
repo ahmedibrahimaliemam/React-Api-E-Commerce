@@ -11,14 +11,13 @@ function App(){
   return(
     <BrowserRouter>
     <div className="App">
-      <Navbar/>
-      <Slider/>
-      <Productlist/>
       <Routes>
+        <Route path="" element={<><Navbar/><Slider/><Productlist/></>}/>
         <Route path="/" element={<><Slider/><Productlist/></>}/>
         <Route path="/About" element={<><About/></>} />
         <Route path="/product/:productId" element={<ProductDetails/>} />
       </Routes>
+      
 
     </div>
     </BrowserRouter>
